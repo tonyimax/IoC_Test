@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC_Test", "IoC_Test\IoC_Test.csproj", "{BD7A7D75-B75C-46A6-B5E3-D77EBE961C99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicController", "IoC_Test\LogicController.csproj", "{BD7A7D75-B75C-46A6-B5E3-D77EBE961C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "GreetMessageService\MessageService.csproj", "{60DF4437-C694-419D-8E11-42154BEB0AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "EmailHelper\Helper.csproj", "{AEC72087-47F0-4D4C-A7FA-417EA84AEE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISend", "ISend\ISend.csproj", "{AAEEF161-2089-4D46-B819-812C71E6371A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{BD7A7D75-B75C-46A6-B5E3-D77EBE961C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD7A7D75-B75C-46A6-B5E3-D77EBE961C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD7A7D75-B75C-46A6-B5E3-D77EBE961C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DF4437-C694-419D-8E11-42154BEB0AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DF4437-C694-419D-8E11-42154BEB0AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DF4437-C694-419D-8E11-42154BEB0AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DF4437-C694-419D-8E11-42154BEB0AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC72087-47F0-4D4C-A7FA-417EA84AEE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC72087-47F0-4D4C-A7FA-417EA84AEE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC72087-47F0-4D4C-A7FA-417EA84AEE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC72087-47F0-4D4C-A7FA-417EA84AEE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEEF161-2089-4D46-B819-812C71E6371A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEEF161-2089-4D46-B819-812C71E6371A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEEF161-2089-4D46-B819-812C71E6371A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEEF161-2089-4D46-B819-812C71E6371A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
