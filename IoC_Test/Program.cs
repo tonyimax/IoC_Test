@@ -40,26 +40,10 @@ namespace IocTest
         static void Main(string[] args)
         {
             string message = "新年快乐！过节费5000.";
-            //GreetMessageService service = new GreetMessageService();
-            //GreetMessageService service = new GreetMessageService(SendToolType.Email);
             ISendable emailsend = new EmailHelper();
-            //GreetMessageService service = new GreetMessageService(emailsend);
             ISendable greetTool = SendToolFactory.GetInstance();
             GreetMessageService service = new GreetMessageService(greetTool);
             service.Greet(message);
-
-            //service = new GreetMessageService(SendToolType.Telephone);
-            //ISendable phonesend = new PhoneHelper();
-            //service = new GreetMessageService(phonesend);
-            //service.Greet(message);
-
-            //ISendable sms_send = new SMSHelper();
-            //service = new GreetMessageService(sms_send);
-            //service.Greet(message);
-
-            //ISendable webcharsend = new WebCharHelper();
-            //service = new GreetMessageService(webcharsend);
-            //service.Greet(message);
         }
     }
 }
